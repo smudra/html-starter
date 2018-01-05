@@ -1,3 +1,23 @@
 body {
     background-color: darkgoldenrod;
 }
+.container {
+    background-color: azure;
+}
+footer {
+    background-color: bisque;
+    color: #f55555;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+.flex-section {
+
+}
+.flex-item {
+    margin: 1em;
+}
