@@ -4,6 +4,22 @@ body {
 .container {
     background-color: azure;
 }
+/* this the nav area */
+nav ul {
+    display: flex;
+    display: -webkit-flex;
+}
+
+nav li {
+    list-style-type: none;
+    color: burlywood;
+}
+
+nav a {
+    color: #f55555;
+}
+/* end of nav area */
+
 footer {
     background-color: bisque;
     color: #f55555;
@@ -15,9 +31,9 @@ footer {
     display: -webkit-flex;
     width: 100%;
 }
-.flex-section {
-
-}
 .flex-item {
     margin: 1em;
+}
+article, aside, footer, header, main, nav, section {
+    display: block;
 }
