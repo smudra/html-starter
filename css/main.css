@@ -15,9 +15,9 @@ footer {
     display: -webkit-flex;
     width: 100%;
 }
-.flex-section {
-
-}
 .flex-item {
     margin: 1em;
+}
+article, aside, footer, header, main, nav, section {
+    display: block;
 }
